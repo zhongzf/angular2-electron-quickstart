@@ -5,8 +5,7 @@ Same code base built on Angular 2 can run both web and desktop environment.
 Angular
 =========
 
-Angular is a development platform for building mobile and desktop web applications. This is the
-repository for [Angular 2][ng2], both the JavaScript (JS) and [Dart][dart] versions.
+Angular is a development platform for building mobile and desktop web applications. 
 
 Repository:  https://github.com/angular/angular
 
