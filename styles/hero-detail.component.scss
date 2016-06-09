@@ -1,0 +1,45 @@
+.hero-detail
+{
+    label
+    {
+        font-weight: bold;
+
+        display: inline-block;
+
+        width: 3em;
+        margin: .5em 0;
+
+        color: #607d8b;
+    }
+    input
+    {
+        font-size: 1em;
+
+        height: 2em;
+        padding-left: .4em;
+    }
+    button
+    {
+        font-family: Arial;
+
+        margin-top: 20px;
+        padding: 5px 10px;
+
+        cursor: pointer;        cursor: hand;
+
+        border: none;
+        border-radius: 4px;
+        background-color: #eee;
+    }
+    button:hover
+    {
+        background-color: #cfd8dc;
+    }
+    button:disabled
+    {
+        cursor: auto;
+
+        color: #ccc;
+        background-color: #eee;
+    }
+}

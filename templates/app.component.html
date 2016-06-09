@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<nav>
+    <a [routerLink]="['Dashboard']">Dashboard</a>
+    <a [routerLink]="['Heroes']">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<div *ngIf="process">
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using node {{process.versions.node}},
+    Chromium {{process.versions.chrome}},
+    and Electron {{process.versions.electron}}.
+</div>

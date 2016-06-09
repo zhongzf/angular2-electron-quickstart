@@ -1,0 +1,53 @@
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+    color: #444;
+}
+body
+{
+    margin: 2em;
+}
+body,
+input[text],
+button
+{
+    font-family: Cambria, Georgia;
+
+    color: #888;
+}
+button
+{
+    font-family: Arial;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+    cursor: hand;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #eee;
+}
+button:hover
+{
+    background-color: #cfd8dc;
+}
+button:disabled
+{
+    cursor: auto;
+
+    color: #aaa;
+    background-color: #eee;
+}
+/* everywhere else */
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import "app.component";
+@import "dashboard.component";
+@import "hero-detail.component";
+@import "heroes.component";
