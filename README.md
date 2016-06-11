@@ -40,11 +40,8 @@ npm run web
 
 ## Usage for desktop with Electron
 ```sh
-# Build 
-npm run build
-gulp
 
-# Start Electron
+# Build and start Electron
 npm start
 ```
 
