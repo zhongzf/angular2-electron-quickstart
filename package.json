@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js",
+    "start": "npm run electron",
     "build": "tsc",
     "web": "tsc && concurrently \"npm run tsc:w\" \"gulp\" \"npm run lite\" ",
-    "electron": "electron main.js",
+    "electron": "tsc && gulp scss && electron main.js",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",

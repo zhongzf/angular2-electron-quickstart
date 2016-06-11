@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.gulp-scss-cache":true,
+        "**/.sass-cache": true,
+        "node_modules": true,
+        "app/*.js": true,
+        "app/*.js.map": true,
+        "styles/*.css": true,
+        "typings":true,
+        "main.js":true,
+        "main.js.map": true
+    }
+}

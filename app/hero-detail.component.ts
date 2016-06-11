@@ -5,13 +5,10 @@ import { HeroService } from './hero.service';
 import { OnInit } from '@angular/core';
 
 var componentName = 'hero-detail';
-var templateUrl = `templates/${componentName}.component.html`;
-var styleUrl = `styles/${componentName}.component.css`;
-if(typeof process!=="undefined") {
-  templateUrl = `file://${__dirname}/../${templateUrl}`;
-  styleUrl = `file://${__dirname}/../${styleUrl}`;
-}
+var templateUrl = `../templates/${componentName}.component.html`;
+var styleUrl = `../styles/${componentName}.component.css`;
 @Component({
+  moduleId: module.id,
   selector: 'my-hero-detail',
   templateUrl: templateUrl,
   styleUrls:[styleUrl]

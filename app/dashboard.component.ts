@@ -6,13 +6,10 @@ import { Router } from '@angular/router-deprecated';
 
 
 var componentName = 'dashboard';
-var templateUrl = `templates/${componentName}.component.html`;
-var styleUrl = `styles/${componentName}.component.css`;
-if(typeof process!=="undefined") {
-  templateUrl = `file://${__dirname}/../${templateUrl}`;
-  styleUrl = `file://${__dirname}/../${styleUrl}`;
-}
+var templateUrl = `../templates/${componentName}.component.html`;
+var styleUrl = `../styles/${componentName}.component.css`;
 @Component({
+  moduleId: module.id,
   selector: 'my-dashboard',
   templateUrl: templateUrl,
   styleUrls:[styleUrl]

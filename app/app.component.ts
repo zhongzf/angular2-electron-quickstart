@@ -6,13 +6,10 @@ import { DashboardComponent } from "./dashboard.component";
 import { HeroDetailComponent } from './hero-detail.component';
 
 var componentName = 'app';
-var templateUrl = `templates/${componentName}.component.html`;
-var styleUrl = `styles/${componentName}.component.css`;
-if(typeof process!=="undefined") {
-  templateUrl = `file://${__dirname}/../${templateUrl}`;
-  styleUrl = `file://${__dirname}/../${styleUrl}`;
-}
+var templateUrl = `../templates/${componentName}.component.html`;
+var styleUrl = `../styles/${componentName}.component.css`;
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
   templateUrl: templateUrl,
   styleUrls:[styleUrl],
